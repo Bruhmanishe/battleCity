@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tank Battle</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="game">
+        <div class="game__gameplay">
+          <div class="game__move">
+            <button class="game__btn-up"></button>
+            <button class="game__btn-down"></button>
+            <button class="game__btn-left"></button>
+            <button class="game__btn-right"></button>
+          </div>
+          <div class="game__board">
+            <div class="game__canvas-cont"></div>
+          </div>
+          <div class="game__shoot">
+            <button class="game__btn-shoot"></button>
+          </div>
+        </div>
+        <div class="game__controls">
+          <button class="game__btn-restart">RESTART</button>
+          <button class="game__btn-menu">MENU</button>
+        </div>
+      </div>
+    </div>
+    <img class="display-none" src="playerTank.png" alt="" id="#playerTankUp" />
+    <img
+      class="display-none"
+      src="playerTankDown.png"
+      alt=""
+      id="#playerTankDown"
+    />
+    <img
+      class="display-none"
+      src="playerTankRight.png"
+      alt=""
+      id="#playerTankRight"
+    />
+    <img
+      class="display-none"
+      src="playerTankLeft.png"
+      alt=""
+      id="#playerTankLeft"
+    />
+    <img class="display-none" src="enemyTank.png" alt="" id="#enemyTankUp" />
+    <img
+      class="display-none"
+      src="enemyTankDown.png"
+      alt=""
+      id="#enemyTankDown"
+    />
+    <img
+      class="display-none"
+      src="enemyTankRight.png"
+      alt=""
+      id="#enemyTankRight"
+    />
+    <img
+      class="display-none"
+      src="enemyTankLeft.png"
+      alt=""
+      id="#enemyTankLeft"
+    />
+    <img class="display-none" src="wall.png" alt="" id="#wall1st" />
+    <img class="display-none" src="wall2.png" alt="" id="#wall2st" />
+    <img class="display-none" src="wall3.png" alt="" id="#wall3st" />
+
+    <img class="display-none" src="expl1.png" alt="" id="#expl1" />
+    <img class="display-none" src="expl2.png" alt="" id="#expl2" />
+    <img class="display-none" src="expl3.png" alt="" id="#expl3" />
+
+    <script src="script.js"></script>
+  </body>
+</html>
